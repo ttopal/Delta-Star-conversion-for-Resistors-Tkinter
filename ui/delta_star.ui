@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="ttk.Panedwindow" id="panedwindow1">
+    <property name="height">500</property>
+    <property name="orient">vertical</property>
+    <property name="width">600</property>
+    <layout manager="pack">
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="ttk.Panedwindow.Pane" id="pane1">
+        <property name="weight">1</property>
+        <child>
+          <object class="ttk.Frame" id="frame1">
+            <property name="height">150</property>
+            <property name="width">600</property>
+            <layout manager="pack">
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Frame" id="frame4">
+                <property name="height">75</property>
+                <property name="width">600</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="side">top</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="label1">
+                    <property name="anchor">center</property>
+                    <property name="background">#aaaaaa</property>
+                    <property name="font">{verdana} 13 {bold}</property>
+                    <property name="foreground">#0000a0</property>
+                    <property name="justify">center</property>
+                    <property name="relief">groove</property>
+                    <property name="text" translatable="yes">DELTA-STAR CONVERSION</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">both</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Frame" id="frame5">
+                <property name="height">75</property>
+                <property name="width">600</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="side">top</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="label2">
+                    <property name="anchor">center</property>
+                    <property name="background">#800000</property>
+                    <property name="font">{verdana} 10 {bold}</property>
+                    <property name="foreground">#00ff00</property>
+                    <property name="text" translatable="yes">DELTA-STAR</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">both</property>
+                      <property name="side">left</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label3">
+                    <property name="anchor">center</property>
+                    <property name="background">#800000</property>
+                    <property name="font">{verdana} 10 {bold}</property>
+                    <property name="foreground">#008000</property>
+                    <property name="text" translatable="yes">STAR-DELTA</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">both</property>
+                      <property name="side">right</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Panedwindow.Pane" id="pane2">
+        <property name="weight">1</property>
+        <child>
+          <object class="ttk.Frame" id="frame2">
+            <property name="height">300</property>
+            <property name="width">600</property>
+            <layout manager="pack">
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="tk.Canvas" id="cn_entry" named="True">
+                <property name="height">300</property>
+                <property name="width">600</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_Ra" named="True">
+                <property name="text" translatable="yes">Ra</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.19</property>
+                  <property name="rely">0.29</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_Rb" named="True">
+                <property name="text" translatable="yes">Rb</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.29</property>
+                  <property name="rely">0.42</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_Rc" named="True">
+                <property name="text" translatable="yes">Rc</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.06</property>
+                  <property name="rely">0.42</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_R1" named="True">
+                <property name="text" translatable="yes">R1</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.7</property>
+                  <property name="rely">0.19</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_R2" named="True">
+                <property name="exportselection">true</property>
+                <property name="justify">left</property>
+                <property name="text" translatable="yes">R2</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.55</property>
+                  <property name="rely">0.27</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="ent_R3" named="True">
+                <property name="text" translatable="yes">R3</property>
+                <property name="width">10</property>
+                <layout manager="place">
+                  <property name="anchor">nw</property>
+                  <property name="relx">0.75</property>
+                  <property name="rely">0.36</property>
+                  <property name="x">0</property>
+                  <property name="y">0</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Panedwindow.Pane" id="pane3">
+        <property name="weight">1</property>
+        <child>
+          <object class="ttk.Frame" id="frame3">
+            <property name="height">50</property>
+            <property name="width">600</property>
+            <layout manager="pack">
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Frame" id="frame6">
+                <property name="height">50</property>
+                <property name="relief">groove</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">10</property>
+                  <property name="pady">10</property>
+                  <property name="side">left</property>
+                </layout>
+                <child>
+                  <object class="ttk.Radiobutton" id="rbtn_ds" named="True">
+                    <property name="command" type="command" cbtype="simple">delta_star_adjust</property>
+                    <property name="cursor">hand2</property>
+                    <property name="text" translatable="yes">Delta-Star</property>
+                    <property name="value">1</property>
+                    <property name="variable">int:conv_var</property>
+                    <layout manager="pack">
+                      <property name="anchor">center</property>
+                      <property name="padx">15</property>
+                      <property name="side">left</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Radiobutton" id="rbtn_sd" named="True">
+                    <property name="command" type="command" cbtype="simple">delta_star_adjust</property>
+                    <property name="cursor">hand2</property>
+                    <property name="text" translatable="yes">Star-Delta</property>
+                    <property name="value">2</property>
+                    <property name="variable">int:conv_var</property>
+                    <layout manager="pack">
+                      <property name="anchor">center</property>
+                      <property name="padx">15</property>
+                      <property name="side">left</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Frame" id="frame7">
+                <property name="height">50</property>
+                <property name="width">200</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">10</property>
+                  <property name="pady">10</property>
+                  <property name="side">left</property>
+                </layout>
+                <child>
+                  <object class="ttk.Button" id="btn_calc" named="True">
+                    <property name="command" type="command" cbtype="simple">delta_star_con</property>
+                    <property name="cursor">hand2</property>
+                    <property name="text" translatable="yes">Calculate</property>
+                    <layout manager="pack">
+                      <property name="anchor">center</property>
+                      <property name="padx">20</property>
+                      <property name="pady">30</property>
+                      <property name="side">right</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
